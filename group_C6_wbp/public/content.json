@@ -1,0 +1,126 @@
+[
+  {
+    "logo": "img/logo.png",
+    "home_page": "Home",
+    "goal_page": "Goals",
+    "signup_page": "Sign Up",
+    "team_page": " Our team",
+    "title": "Our Team",
+    "main_par": "The team is the core of any development. The more understanding and professional the team, the better the product can be developed.",
+    "button": "Let's move on",
+    "span": "Let's have a look at 1 member"
+  },
+  {
+    "footerlog": "img/logo.png",
+    "footNumber": "+1 ###-###-####",
+    "footEmail": "inquiries@un.org",
+    "footAdress": "alais des Nations, 1211 Geneva 10, Switzerland",
+    "policies": "Privacy policy",
+    "data": "© 2024 data protection",
+    "terms": "Terms of use"
+  },
+
+  {
+    "mainTitle": "Team members",
+    "title": " Lucas von Westarp",
+    "role": "Role: Home page developer/Frontend developer",
+    "bio": "Bio: Lucas is a first year student at UEA and is passionate about fitness, video games, and hopes to join the air force.",
+    "responsibilities": " Lucas is responsible for creating and designing the index/home page which will greet users when they open the website. His task was to make sure that the page is easy to understand and navigate. The index should also provide an overview of the website.​",
+    "image": "img/person1.jpg"
+  },
+  {
+    "title": " Chindanai Butterworth ",
+    "role": "Goals page developer/ UI Designer",
+    "bio": "Bio: He is 24 year old ex IT Intern at a company called Gravitas Ai. His hobbies include reading up on culinary history and making coffee by hand",
+    "responsibilities": "Chindanai is responsible for maintaining visual cohesion with the design language and layouts of our website. His task is to ensure that all pages, especially the UN's goals page should be the most attractive for the website audience, and have a harmonious and professional appearance. ​",
+    "image": "img/person1.jpg"
+  },
+  {
+    "title": "Keelan Reddings",
+    "role": "Form page developer/Backend developer",
+    "bio": "Bio: Keelan is a first year at UEA and is passionate about video games, reading and hopes to be a software engineer ",
+    "responsibilities": "Keelan Reddings is responsible for designing the registration form page and helping to implement other features, as he has more coding skills and knowledge than design. He is leading the backend development ​",
+    "image": "img/person1.jpg"
+  },
+  {
+    "title": "Yaroslav Halik",
+    "role": "Team page developer/Frontend developer",
+    "bio": "Bio: He is the first year UEA student who has previous frontend development experience and loves traveling and sport",
+    "responsibilities": "Yaroslav Halik is primarily responsible for front-end development, with several successfully completed projects under his belt. He ensured the proper creation and implementation of a page that presents key information about our team. ​",
+    "image": "img/person1.jpg"
+  },
+  {
+    "hamburger": "img/ddm.png",
+    "cross": "img/cross.svg"
+  },
+
+  {
+    "welcome": "Building a sustainable future together.",
+    "introduction": "The Sustainability Advisory Committee is dedicated to making a difference through action, awareness, and collaboration. The committee focusses on three of the United Nations’ Sustainable Development Goals, each critical to creating a better world."
+  },
+
+  { 
+    "goal1":"No Poverty", 
+    "description":"Ending all forms of poverty around the world", 
+    "image":"img/noPoverty.jpg", 
+    "alt":"A photo of children in a poor country", 
+    "image_flip":"Around  700 million people live in extreme poverty, living on less than $1.90/day." 
+    }, 
+ 
+    { 
+    "goal2":"Zero Hunger", 
+    "description":"Achieving food security, agricultural sustainability and better nutrition", 
+    "image":"img/foodBank.jpg", 
+    "alt":"A photo of a food bank", 
+    "image_flip":"Globally, about 2.33 billion people experienced moderate or severe food insecurity in 2023." 
+    }, 
+ 
+    { 
+    "goal3":"Quality Education", 
+    "description":"Empowering individuals through accessible and inclusive education", 
+    "image":"img/education.jpg", 
+    "alt":"A photo of a classroom", 
+    "image_flip":"Over 400 million children and young people do not meet minimum proficiency levels in reading and mathematics and over 277 million children have no access to school." 
+    },
+  {
+    "Why": "Why did we chose these goals?",
+    "description": "These three goals are pivotal in creating positive change around the world. By focusing on poverty, hunger and educaiton we address the critical challanges affecting millions everyday."
+  },
+
+  {
+    "Title": "Sign up page",
+    "headerTitle":"Sign up",
+    "headerText":"You won't regret signing up to our newsletters",
+    "heading": "Sign up to our newsletter",
+    "subheading": "You'll recieve monthly newsletters at no cost",
+    "imageURL": "img/Baby.jpg",
+    "alt": "A photo of a malnurished baby",
+    "Text1": "Signing up to our newspaper comes with many benefits: you will receive up to date news on the progress being made to end poverty and hunger aswell as news on the pursuit to improve education for all. In addition to the latest news, included in the newsletter are links to donate to the charities who have had the greatest impact that month. You won't want to miss out on such an amazing opportunity to quickly find out what is happening each month without needing to do your own research.",
+    "Text2": "Just sign up today and you'll receive an email straight away to let you know you've been added to our emailing list. ",
+    "Legend": "Sign up",
+    "FirstName": "First Name:",
+    "LastName": "Last Name: ",
+    "Email": "Email: ",
+    "Comment": "Comment: ",
+    "Submit": "Submit"
+  },
+  {
+    "line1": "Congratulations ",
+    "line2": "You have successfully signed up!!!",
+    "line3": "You'll recieve an email shortly at ",
+    "logo": "img/logo.png",
+    "close": "Close",
+    "Exit": "X"
+  },
+  {
+    "goals": ["img/goal1.png", "img/goal2.png", "img/goal3.png"]
+  },
+  {
+    "goalsTitle": "Our Mission and Goals",
+    "goalsText": "We are working towards Raising awareness for these three humanitarian goals simply click the image below to see infomation on them."
+  }
+  ,
+  {
+    "goalTxt": "This is a slideshow diplaying a small snapshop of our goals and objectives more detailed information on both the goals themselves as well as resources will be avalable if you fill in the sign up form. You can cycle the slideshow by clicking on the image above."
+  }
+]

@@ -1,0 +1,269 @@
+body {
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+footer {
+  color: #fff;
+  padding: 100px 0;
+  background-image: linear-gradient(to right, #0f9c6b, #18a8b2, #1a51aa);
+}
+footer div ul {
+  display: flex;
+  flex-direction: column;
+}
+footer ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+footer ul li a:hover {
+  color: #c5dd0f;
+}
+footer div h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.header {
+  background-color: #1326ce;
+  padding: 77px 0 176px;
+  color: #ffffff;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.nav__logo {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 132.9%;
+}
+
+.nav__mail {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 132.9%;
+  margin-left: auto;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+.mail:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.offer {
+  margin-top: 157px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.offer__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 132.9%;
+  text-transform: uppercase;
+}
+.offer__people {
+  margin-top: 49px;
+}
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.offer__img {
+  width: 73px;
+  height: 73px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+}
+.offer__img:not(:last-child) {
+  margin-right: 26px;
+}
+.offer__box {
+  margin-top: 40px;
+  background-color: #0e20bf;
+  padding: 26px;
+  width: 499px;
+}
+
+.offer__title__small {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 132.9%;
+  color: #ffffff;
+  text-transform: none;
+}
+
+.paragraph {
+  margin-top: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.9%;
+  color: #ffffff;
+}
+.table-section {
+  padding-top: 128px;
+}
+.section-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 50px;
+  color: #000000;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 59px;
+}
+.thinks__cell {
+  border: 1px solid black;
+  text-align: center;
+  padding: 17px 0;
+  width: 25%;
+}
+.thinks__cell_head {
+  background: #e8e8e8;
+  padding: 16px 0;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.goals {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.target {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out;
+}
+.target__wrap {
+  display: flex;
+  align-items: stretch;
+  perspective: 1000px;
+}
+
+.target__back {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.target__back:hover {
+  display: block;
+  background: #333;
+  color: #f8f9fa;
+  transform: rotateY(180deg);
+}
+.target__point {
+  width: 215px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 114px 30px 136px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.target__index {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  margin: 0 auto;
+}
+.target__text {
+  margin-top: 16px;
+}
+.target__index_green {
+  background: #3aa629;
+}
+.target__index_orange {
+  background: #ff8038;
+}
+.target__index_purple {
+  background: #903ef9;
+}
+.target__index_pink {
+  background: #f93e98;
+}
+/* Footer*/
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter {
+  margin-top: 40px;
+}
+
+.newsletter__form-inp {
+  display: inline;
+  width: 400px;
+  border-radius: 20px 0 0 20px;
+  padding: 10px 20px;
+  margin: 0;
+  border: 0;
+}
+.newsletter__form-btn {
+  display: inline;
+  padding: 10px 20px;
+  margin: 0;
+  border: 0;
+  background: rgb(79, 44, 255);
+  color: #fff;
+}
+
+.newsletter__form-btn:hover {
+  background-color: #c5dd0f;
+  color: black;
+}
+
+.newsletter__form {
+  display: flex;
+}

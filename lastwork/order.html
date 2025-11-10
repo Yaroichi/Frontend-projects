@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&family=Raleway:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/order.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav">
+          <div class="nav__logo">
+            <a href="" class="nav__link">
+              <img
+                src="../lastwork/img/dress.svg"
+                alt="dress"
+                class="nav__img"
+              />
+              WOMAZING
+            </a>
+          </div>
+          <nav class="nav__bar">
+            <ul class="nav__list">
+              <a href="index.html" class="nav__list-link">
+                <li class="nav__point">Главная</li>
+              </a>
+              <a href="shop.html" class="nav__list-link">
+                <li class="nav__point">Магазин</li>
+              </a>
+              <a href="brand.html" class="nav__list-link">
+                <li class="nav__point">О бренде</li>
+              </a>
+              <a href="contacts.html" class="nav__list-link">
+                <li class="nav__point">Контакты</li>
+              </a>
+            </ul>
+          </nav>
+
+          <div class="contacts-wrapper">
+            <div class="contacts-wrapper__overlay"></div>
+            <div class="contacts-wrapper__window">
+              <h3 class="contacts-wrapper__title">Заказать обратный звонок</h3>
+              <form action="" class="wrapper-contacts__form">
+                <input
+                  type="text"
+                  class="wrapper-contacts__input"
+                  placeholder="Имя"
+                />
+              </form>
+              <form action="" class="wrapper-contacts__form">
+                <input
+                  type="text"
+                  class="wrapper-contacts__input"
+                  placeholder="E-mail"
+                />
+              </form>
+              <form action="" class="wrapper-contacts__form">
+                <input
+                  type="text"
+                  class="wrapper-contacts__input"
+                  placeholder="Телефон"
+                />
+              </form>
+              <a class="contacts-wrapper__link">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="agreed">
+            <div class="agreed__overlay"></div>
+            <div class="agreed__window">
+              <h3 class="agreed__title">Отлично! Мы скоро вам перезвоним.</h3>
+              <button type="button" class="agreed__btn">Закрыть</button>
+            </div>
+          </div>
+
+          <div class="nav__contacts">
+            <a class="nav__tel">
+              <button class="nav__tel-box">
+                <img src="../lastwork/img/telephone.svg" alt="" />
+              </button>
+              +7 (495) 823-54-12
+            </a>
+            <a href="basket.html" class="nav__basket">
+              <img src="../lastwork/img/bag.svg" class="nav__img-tel" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="head">
+          <h1 class="head__title">Оформление заказа</h1>
+          <div class="head__links">
+            <a href="" class="head__link">Главная</a>
+            <span class="head__link">—</span>
+            <a href="" class="head__link">Оформление заказа</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="form">
+      <div class="container">
+        <form action="" class="forms">
+          <div class="forms__data">
+            <h3 class="forms__data-title">Данные покупателя</h3>
+            <input
+              type="text"
+              class="forms__data-input form-input"
+              placeholder="имя"
+            />
+            <input
+              type="email"
+              class="forms__data-input form-input"
+              placeholder="E-mail"
+            />
+            <input
+              type="tel"
+              class="forms__data-input form-input"
+              placeholder="Телефон"
+            />
+          </div>
+          <div class="forms__price">
+            <h3 class="forms__price-title">Ваш заказ</h3>
+            <div class="forms__price-box one">
+              <span class="froms__pice-span">Товар</span>
+              <span class="froms__pice-span">Всего</span>
+            </div>
+            <div class="forms__price-box">
+              <span class="froms__pice-span">Футболка USA</span>
+              <span class="froms__pice-span">$129</span>
+            </div>
+            <div class="forms__price-box">
+              <span class="froms__pice-span">Подытог</span>
+              <span class="froms__pice-span">$129</span>
+            </div>
+            <div class="forms__price-box four">
+              <span class="froms__pice-span">Итого</span>
+              <span class="froms__pice-span">$129</span>
+            </div>
+          </div>
+          <div class="forms__adress">
+            <h3 class="forms__adress-title">Адрес получателя</h3>
+            <input
+              type="text"
+              class="forms__adress-input form-input"
+              placeholder="Страна"
+            />
+            <input
+              type="text"
+              class="forms__adress-input form-input"
+              placeholder="Город"
+            />
+            <input
+              type="text"
+              class="forms__adress-input form-input"
+              placeholder="Улица"
+            />
+            <input
+              type="text"
+              class="forms__adress-input form-input"
+              placeholder="Дом"
+            />
+            <input
+              type="text"
+              class="forms__adress-input form-input"
+              placeholder="Квартира"
+            />
+          </div>
+          <div class="forms__payment">
+            <h2 class="forms__payment-title">Способы оплаты</h2>
+            <div class="forms__payment-box">
+              <label class="forms__payment-box-div">
+                <input
+                  class="forms__payment-box-input"
+                  type="radio"
+                  name="radio"
+                  value="1"
+                  checked
+                />
+                <span class="label-svg"></span>
+                <span class="label-text">Оплата наличными</span>
+              </label>
+              <label class="forms__payment-box-div">
+                <input
+                  class="forms__payment-box-input"
+                  type="radio"
+                  name="radio"
+                  value="2"
+                />
+                <span class="label-svg"></span>
+                <span class="label-text">Оплата картой</span>
+              </label>
+            </div>
+            <a href="index.html" class="forms__payment-link">
+              <button class="forms__payment-btn" type="submit">
+                Разместить заказ
+              </button>
+            </a>
+          </div>
+          <div class="forms__coments">
+            <h3 class="forms__coments-title">Комментарии</h3>
+            <textarea class="forms__coments-input" name=" " id="">
+ Введите текст</textarea
+            >
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="wrap">
+          <div class="wrap__rights">
+            <a href="" class="wrap__rights-logo">
+              <img
+                src="../lastwork/img/dress.svg"
+                alt=""
+                class="wrap__rights-logo-img"
+              />
+              WOMAZING
+            </a>
+            <div class="wrap__rigts-spans">
+              <span class="wrap__rights-span">© Все права защищены</span>
+              <a href="#" class="wrap__rights-span"
+                >Политика конфиденциальности</a
+              >
+              <a href="#" class="wrap__rights-span">Публичная оферта</a>
+            </div>
+          </div>
+          <div class="wrap__lists">
+            <nav class="wrap__lists-nav">
+              <ul class="wrap__lists-one">
+                <a href="index.html" class="wrap__lists-link">
+                  <li class="wrap__lists-point">Главная</li>
+                </a>
+                <a href="shop.html" class="wrap__lists-link">
+                  <li class="wrap__lists-point">
+                    <p class="wrapp">Магазин</p>
+
+                    <ul class="wrap__lists-box">
+                      <li class="wrap__lists-box-point">Пальто</li>
+
+                      <li class="wrap__lists-box-point">Свитшоты</li>
+
+                      <li class="wrap__lists-box-point">Кардиганы</li>
+
+                      <li class="wrap__lists-box-point">Толстовки</li>
+                    </ul>
+                  </li>
+                </a>
+                <a href="brand.html" class="wrap__lists-link">
+                  <li class="wrap__lists-point">О бренде</li>
+                </a>
+                <a href="contacts.html" class="wrap__lists-link">
+                  <li class="wrap__lists-point">Контакты</li>
+                </a>
+              </ul>
+            </nav>
+          </div>
+          <div class="wrap__contacts">
+            <a href="tel:+380448235412" class="wrap__contacts-link"
+              >+38 (044) 823-54-12</a
+            >
+            <a href="mailto:hello@womazing.com">hello@womazing.com</a>
+            <div class="wrap__contacts-images">
+              <a href="" class="wrap__contacts-img">
+                <img src="../lastwork/img/instagram.svg" alt=""
+              /></a>
+              <a href="" class="wrap__contacts-img"
+                ><img src="../lastwork/img/facebook.svg" alt=""
+              /></a>
+              <a href="" class="wrap__contacts-img">
+                <img src="../lastwork/img/twiter.svg" alt=""
+              /></a>
+            </div>
+            <img
+              src="../lastwork/img/visa-mastercard.png"
+              alt=""
+              class="wrap__contacts-pay"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/order.js"></script>
+  </body>
+</html>
